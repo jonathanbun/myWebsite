@@ -3,7 +3,10 @@
 :root {
   --primary-white: #ffffff;
   --primary-orange: #f9ab00;
-  --primary-dark: rgba(255,255,255,0)
+  --primary-dark: rgba(0,0,0, 1);
+  --primary-lg-dark: rgba(20,20,20, 0);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
 }
 
 body {
@@ -30,7 +33,7 @@ nav ul li {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
   color: var(--primary-white) !important;
-  border-top: 0.1875rem solid var(--primary-dark)
+  border-top: 0.1875rem solid var(--primary-lg-dark)
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
@@ -44,3 +47,50 @@ nav ul li {
 .menu-icon {
   color: var(--primary-white);
 }
+
+/*****************************HEADER**********************/
+
+.header-wrapper {
+  background-color:  var(--primary-dark);
+  height: 90vh;
+}
+
+.main-info {
+  position: relative;
+  top: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-info h1 {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}
+
+.btn-main-offer {
+  border: 1px solid var(--primary-red);
+  text-transform: uppercase;
+  text-decoration:none;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
+}
+
+.btn-main-offer:hover {
+  text-decoration:none;
+  background-color: var(--primary-hover-red);
+  color: var(--primary-white);
+  transition: .2s ease-in-out;
+}
+
+
+/**************************TYPED TEXT**************************/
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-white)
+}
+
