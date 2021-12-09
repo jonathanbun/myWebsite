@@ -3,16 +3,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./Components/Navbar";
 import Header from "./Components/Header";
 import Particles from "react-tsparticles";
+import About from "./Components/About";
 
 function App() {
   return (
     <>
-       <Particles
-      
+       <Particles className="particles-canvas"
+
+
       options={{
-        
-          
-          
+
+        fullScreen: {
+          enable: false,
+          zIndex: 0
+        },
+
         particles: {
           color: {
             value: "#ffffff",
@@ -55,6 +60,7 @@ function App() {
     />
       <Navbar />
       <Header />
+      <About />
     </>
   );
 }
