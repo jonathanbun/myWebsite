@@ -7,12 +7,18 @@
   --primary-lg-dark: rgba(20,20,20, 0);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
+   --primary-green: #6bd425;
 }
 
 body {
   font-family: "Roboto Condensed", sans-serif !important;
 }
 /*****************************NAVBAR**********************/
+
+nav {
+  z-index:2;
+}
+
 .name {
   max-width: 15rem;
   padding: 0 !important;
@@ -63,6 +69,7 @@ nav ul li {
   justify-content: center;
   align-items: center;
   text-align: center;
+  z-index: 1;
 }
 
 .main-info h1 {
@@ -87,10 +94,62 @@ nav ul li {
   transition: .2s ease-in-out;
 }
 
+/**************************PARTICLES***************************/
+
+.tsparticles-canvas-el{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .particles-canvas {
+    display: none;
+  }
+}
+
+#tsparticles {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+
+
 
 /**************************TYPED TEXT**************************/
 .typed-text {
   font-size: 2rem;
   color: var(--primary-white)
 }
+
+/*****************************ABOUT**********************/
+
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-img {
+  width: 16rem;
+  border-radius: 50%;
+  padding: 0.3rem;
+  border: 1px solid var(--primary-orange);
+}
+
+.about-heading {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}
+
+@media (max-width: 468px) {
+  .profile-img {
+    width: 10rem;
+  }
+}
+
+
 
