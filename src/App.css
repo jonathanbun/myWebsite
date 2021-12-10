@@ -235,3 +235,33 @@ nav ul li {
   font-weight: 900;
   color: var(--primary-bottle-green);
 }
+
+/*********************FOOTER**********************/
+.footer {
+  background: var(--primary-rich-black);
+  border-top: 0.125rem solid var(--primary-UN-blue);
+}
+
+.footer p {
+  color: var(--primary-UN-blue);
+}
+
+.footer a {
+  color: var(--primary-UN-blue);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
