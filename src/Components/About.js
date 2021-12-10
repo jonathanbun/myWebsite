@@ -24,7 +24,7 @@ const About = () => {
 						pulled people out of the water, and enforced commerical fishing laws.
 					<p>
 						This website is a work in-progress. I created it to learn React, and 
-						it will evolve as I learn more skills.
+						it will evolve as I aquire more skills.
 					</p> 
 					</p>
 					</p>
