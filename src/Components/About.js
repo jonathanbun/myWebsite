@@ -3,7 +3,6 @@ import me from "../Assets/me.jpeg";
 
 const About = () => {
 	return (
-		
 		<div id = "about" className="container py-5">
 			<div className="row">
 				<div className="col-lg-6 col-xm-12">
@@ -14,7 +13,7 @@ const About = () => {
 					</div>
 				</div>
 				<div className="col-lg-6 col-xm-12">
-					<h1 className="about-heading"> About me</h1>
+					<h1 className="about-heading">About me</h1>
 					<p>
 						the dihao troajth ohaoiht ohaoi oaihtrr aoiohaio, 
 						akhtok oahor odfhadofh. dlafadlfj faljad;fj dfh adk 
@@ -22,9 +21,9 @@ const About = () => {
 						gfkangkfghf
 					</p>
 				</div>
-				 </div>
 			</div>
-		)
+		</div>
+	)
 }
 
 export default About;
