@@ -1,10 +1,11 @@
 import react from "react";
+import { Link } from  "react-scroll";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
 	return (
-		<nav className="navbar navbar-expand-lg bg-color">
+		<nav className="navbar navbar-expand-lg bg-color fixed-top">
 			<div className="container">
   				<h2 className="name">Jonathan Bunnell </h2>
   					<button className="navbar-toggler" 
@@ -21,16 +22,16 @@ const Navbar = () => {
  				 			id="navbarSupportedContent">
     				<ul className="navbar-nav ms-auto">
       					<li className="nav-item active">
-        					<a className="nav-link" href="#">Home </a>
+        					<Link smooth={true} to="home" offset={-110} className="nav-link" href="#">Home </Link>
       					</li>
       					<li className="nav-item">
-        					<a className="nav-link" href="#">About</a>
+        					<Link smooth={true} to="about" offset={-110} className="nav-link" href="#">About</Link>
      					 </li>
      					 <li className="nav-item">
-        					<a className="nav-link" href="#">Resume</a>
+        					<Link smooth={true} to="resume" offset={-110} className="nav-link" href="#">Resume</Link>
      					 </li>
      					 <li className="nav-item">
-        					<a className="nav-link" href="#">Contact</a>
+        					<Link  smooth={true} to="contact" offset={-110} className="nav-link" href="#">Contact</Link>
      					 </li>
    					 </ul>
   				</div>
