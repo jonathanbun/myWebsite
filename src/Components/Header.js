@@ -1,5 +1,6 @@
 import react from "react";
 import Typed from "react-typed";
+
 const Header = () => {
 	return (
 		<div id="home" className="header-wrapper">
@@ -12,11 +13,11 @@ const Header = () => {
 					loop
 				/>
 				<a href='#'
-					className="btn-main-offer"> Contact me
+					className="btn-main-offer">Contact me
 				</a>
 			</div>
 		</div>
-		)
+	)
 }
 
 export default Header;
