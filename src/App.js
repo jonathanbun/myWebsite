@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import Header from "./Components/Header";
 import Particles from "react-tsparticles";
 import About from "./Components/About";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
       <Navbar />
       <Header />
       <About />
+      <Contact />
     </>
   );
 }
