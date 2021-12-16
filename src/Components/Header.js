@@ -2,12 +2,12 @@ import react from "react";
 import Typed from "react-typed";
 const Header = () => {
 	return (
-		<div className="header-wrapper">
+		<div id="home" className="header-wrapper">
 			<div className="main-info">
 				<Typed 
 					className="typed-text"
-					strings={["Computer Science", "Web Development"]}
-					typeSpeed={40}
+					strings={["Computer Science", "Web Development", "Javascript", "React", "Python"]}
+					typeSpeed={70}
 					backSpeed={60}
 					loop
 				/>
