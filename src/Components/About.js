@@ -17,14 +17,12 @@ const About = () => {
 					<p>
 						Hello! Thank you for taking the time to check out my website! 
 					<p>
-						I am currently studying Computer Science (BS) and Math (Minor) at Colorado State
-						University. My dream job is in Web Development.
+						I have just graduated from Colorado State University with a B.S. in Computer Science and a minor in Math.
 					<p>
 						Prior to my studies, I served in the U.S. Coast Guard for six years. I've fixed buoys,
 						pulled people out of the water, and enforced commerical fishing laws.
 					<p>
-						This website is a work in-progress. I created it to learn React, and 
-						it will evolve as I aquire more skills.
+						This website is a work-in-progress. I am building this site to teach myself React. My next addition will be a carousel component that will include links to my future personal projects!
 					</p> 
 					</p>
 					</p>
